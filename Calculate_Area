@@ -1,0 +1,16 @@
+//C++: Calculate area of a rectangle
+#include < iostream >
+using std::cout;
+using std::endl;
+int main()
+{
+  int x, y; //  sides of rectangle
+  double area; // area of rectangle
+  
+  x = 5; y = 10; // initial values
+  area = x * y;
+  cout << endl; 
+  cout << "The rectangle area is " << area << endl ;
+  
+  return 0; // Exit the program
+}
